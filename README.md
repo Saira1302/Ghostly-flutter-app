@@ -1,4 +1,4 @@
-# myfirstapp
+# Ghostly
 
 A new Flutter project.
 
