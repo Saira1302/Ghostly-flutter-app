@@ -1,12 +1,31 @@
-# Ghostly
+#Ghostly 🖤👻
 
-A new Flutter project.
+A Pinterest-like Flutter app powered by REST APIs & Firebase
 
-## Getting Started
+#📌 Overview
 
-This project is a starting point for a Flutter application.
+Ghostly is a mobile application built with Flutter and Dart, designed to provide a Pinterest-like experience.
+It fetches images and data from two different REST APIs, stores user-related data in Firebase Storage, and presents content in a smooth, visually engaging grid layout.
 
-A few resources to get you started if this is your first Flutter project:
+#✨ Features
+
+📸 Pinterest-style layout for browsing content
+
+🌐 Fetch data from 2 REST APIs
+
+🔐 Firebase Storage integration for saving media/user data
+
+⚡ Smooth performance with Flutter widgets
+
+🎨 Clean UI/UX for a ghostly vibe
+
+#🛠️ Tech Stack
+
+Frontend: Flutter (Dart)
+
+Backend: REST APIs (2 sources)
+
+Cloud Storage: Firebase Storage
 <img width="613" height="981" alt="image" src="https://github.com/user-attachments/assets/ceaa0b66-f8e7-4e62-87b8-67204feb4a6a" />
 
   <img width="620" height="977" alt="image" src="https://github.com/user-attachments/assets/a0a2ec9d-ed67-4567-9466-54cf612db79a" />
@@ -18,12 +37,27 @@ A few resources to get you started if this is your first Flutter project:
   <img width="608" height="942" alt="image" src="https://github.com/user-attachments/assets/53de0057-c49e-4f40-a5d5-4711dc3d10ab" />
 
 
+#Clone the repository:
+
+git clone https://github.com/yourusername/ghostly.git
+cd ghostly
 
 
+#Install dependencies:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+#Run the app:
+
+flutter run
+
+#🔧 Configuration
+
+Add your Firebase config file in:
+
+android/app/google-services.json (for Android)
+
+
+Update API keys inside services/api_service.dart
+
